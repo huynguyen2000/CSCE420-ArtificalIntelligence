@@ -1,0 +1,75 @@
+iter=1000 | depth=4 | max queue size=13436 | num goal tests=40608 | fn=4
+iter=2000 | depth=4 | max queue size=21534 | num goal tests=80910 | fn=4
+Success | iter=2465 | depth=5 | max queue size=24195 | num goal tests=99350 | fn=4
+Move 0
+E
+D
+
+
+AC
+
+
+
+
+B
+>>>>>>>>>>
+Move 1
+E
+D
+
+
+A
+
+C
+
+
+B
+>>>>>>>>>>
+Move 2
+E
+D
+B
+
+A
+
+C
+
+
+
+>>>>>>>>>>
+Move 3
+E
+D
+B
+
+
+
+C
+A
+
+
+>>>>>>>>>>
+Move 4
+E
+
+B
+
+
+
+C
+AD
+
+
+>>>>>>>>>>
+Move 5
+
+
+B
+
+
+
+C
+AD
+E
+
+>>>>>>>>>>

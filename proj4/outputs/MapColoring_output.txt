@@ -1,0 +1,121 @@
+------------------------------------------------------------------------
+Unassigned: VG VR NSWB NSWG VB WAR QB WAG WAB SAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: 
+Clauses satisfied: 0
+Trying VG=0
+------------------------------------------------------------------------
+Unassigned: VR NSWB NSWG VB WAR QB WAG WAB SAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: VG=0 
+Clauses satisfied: 0
+Trying VR=0
+------------------------------------------------------------------------
+Unassigned: NSWB NSWG VB WAR QB WAG WAB SAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: VR=0 VG=0 
+Clauses satisfied: 1
+Forcing VB=1
+------------------------------------------------------------------------
+Unassigned: NSWB NSWG WAR QB WAG WAB SAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: VB=1 VR=0 VG=0 
+Clauses satisfied: 4
+Forcing SAB=0
+------------------------------------------------------------------------
+Unassigned: NSWB NSWG WAR QB WAG WAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: SAB=0 VB=1 VR=0 VG=0 
+Clauses satisfied: 5
+Forcing NSWB=0
+------------------------------------------------------------------------
+Unassigned: NSWG WAR QB WAG WAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: NSWB=0 SAB=0 VB=1 VR=0 VG=0 
+Clauses satisfied: 7
+Trying NSWG=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAG WAB NSWR NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: NSWB=0 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 9
+Forcing NSWR=1
+------------------------------------------------------------------------
+Unassigned: WAR QB WAG WAB NTR TB NTG NTB SAR TG TR QG QR SAG 
+Assigned: NSWB=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 13
+Forcing SAR=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAG WAB NTR TB NTG NTB TG TR QG QR SAG 
+Assigned: SAR=0 NSWB=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 16
+Forcing SAG=1
+------------------------------------------------------------------------
+Unassigned: WAR QB WAG WAB NTR TB NTG NTB TG TR QG QR 
+Assigned: SAG=1 SAR=0 NSWB=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 21
+Forcing WAG=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAB NTR TB NTG NTB TG TR QG QR 
+Assigned: SAG=1 SAR=0 WAG=0 NSWB=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 22
+Forcing NTG=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAB NTR TB NTB TG TR QG QR 
+Assigned: NTG=0 SAG=1 SAR=0 WAG=0 NSWB=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 24
+Forcing QG=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAB NTR TB NTB TG TR QR 
+Assigned: NTG=0 SAG=1 SAR=0 WAG=0 NSWB=0 QG=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 27
+Forcing QR=0
+------------------------------------------------------------------------
+Unassigned: WAR QB WAB NTR TB NTB TG TR 
+Assigned: NTG=0 SAG=1 QR=0 SAR=0 WAG=0 NSWB=0 QG=0 NSWR=1 SAB=0 VB=1 VR=0 NSWG=0 VG=0 
+Clauses satisfied: 30
+Forcing QB=1
+------------------------------------------------------------------------
+Unassigned: WAR WAB NTR TB NTB TG TR 
+Assigned: VG=0 NSWG=0 VR=0 VB=1 SAB=0 NSWR=1 NSWB=0 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 NTG=0 
+Clauses satisfied: 35
+Forcing NTB=0
+------------------------------------------------------------------------
+Unassigned: WAR WAB NTR TB TG TR 
+Assigned: NTB=0 VG=0 NSWG=0 VR=0 VB=1 SAB=0 NSWR=1 NSWB=0 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 NTG=0 
+Clauses satisfied: 38
+Forcing NTR=1
+------------------------------------------------------------------------
+Unassigned: WAR WAB TB TG TR 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 VB=1 SAB=0 NSWR=1 NSWB=0 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 NTG=0 
+Clauses satisfied: 43
+Forcing WAR=0
+------------------------------------------------------------------------
+Unassigned: WAB TB TG TR 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 WAR=0 VB=1 SAB=0 NSWR=1 NSWB=0 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 NTG=0 
+Clauses satisfied: 46
+Forcing WAB=1
+------------------------------------------------------------------------
+Unassigned: TB TG TR 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 WAR=0 VB=1 SAB=0 NSWR=1 NSWB=0 WAB=1 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 NTG=0 
+Clauses satisfied: 51
+Trying TB=0
+------------------------------------------------------------------------
+Unassigned: TG TR 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 WAR=0 VB=1 SAB=0 NSWR=1 NSWB=0 WAB=1 QB=1 WAG=0 SAR=0 QG=0 QR=0 SAG=1 TB=0 NTG=0 
+Clauses satisfied: 51
+Trying TG=0
+------------------------------------------------------------------------
+Unassigned: TR 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 WAR=0 VB=1 SAB=0 NSWR=1 NSWB=0 WAB=1 QB=1 WAG=0 SAR=0 TG=0 QG=0 QR=0 SAG=1 TB=0 NTG=0 
+Clauses satisfied: 52
+Forcing TR=1
+------------------------------------------------------------------------
+Unassigned: 
+Assigned: NTR=1 NTB=0 VG=0 NSWG=0 VR=0 WAR=0 VB=1 SAB=0 NSWR=1 NSWB=0 WAB=1 QB=1 WAG=0 SAR=0 TR=1 TG=0 QG=0 QR=0 SAG=1 TB=0 NTG=0 
+Clauses satisfied: 55
+Found solution
+------------------------------------------------------------------------
+Unit clause heauristic: true
+Total number of DPLL calls: 22
+Solution: 
+NTR
+VB
+NSWR
+WAB
+QB
+TR
+SAG

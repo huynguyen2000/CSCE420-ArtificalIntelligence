@@ -1,0 +1,57 @@
+Success | iter=837 | depth=8 | max queue size=2661 | num goal tests=10774 | fn=7
+Move 0
+A
+BC
+E
+
+D
+>>>>>>>>>>
+Move 1
+A
+B
+E
+C
+D
+>>>>>>>>>>
+Move 2
+
+B
+EA
+C
+D
+>>>>>>>>>>
+Move 3
+B
+
+EA
+C
+D
+>>>>>>>>>>
+Move 4
+B
+C
+EA
+
+D
+>>>>>>>>>>
+Move 5
+B
+CD
+EA
+
+
+>>>>>>>>>>
+Move 6
+BA
+CD
+E
+
+
+>>>>>>>>>>
+Move 7
+BA
+CDE
+
+
+
+>>>>>>>>>>

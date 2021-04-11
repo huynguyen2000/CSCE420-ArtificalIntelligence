@@ -1,0 +1,173 @@
+iter=1000 | depth=11 | max queue size=2069 | num goal tests=5494 | fn=15
+iter=2000 | depth=11 | max queue size=3957 | num goal tests=10952 | fn=16
+iter=3000 | depth=12 | max queue size=5928 | num goal tests=16458 | fn=16
+iter=4000 | depth=13 | max queue size=7684 | num goal tests=21968 | fn=16
+iter=5000 | depth=13 | max queue size=9474 | num goal tests=27332 | fn=17
+iter=6000 | depth=13 | max queue size=11414 | num goal tests=32702 | fn=17
+iter=7000 | depth=14 | max queue size=13225 | num goal tests=38066 | fn=17
+iter=8000 | depth=17 | max queue size=14993 | num goal tests=43478 | fn=17
+iter=9000 | depth=17 | max queue size=16808 | num goal tests=48892 | fn=17
+iter=10000 | depth=17 | max queue size=18455 | num goal tests=54324 | fn=17
+iter=11000 | depth=17 | max queue size=20063 | num goal tests=59812 | fn=17
+iter=12000 | depth=17 | max queue size=21735 | num goal tests=65224 | fn=17
+iter=13000 | depth=17 | max queue size=23370 | num goal tests=70534 | fn=18
+iter=14000 | depth=17 | max queue size=25102 | num goal tests=75764 | fn=18
+iter=15000 | depth=17 | max queue size=26744 | num goal tests=81006 | fn=18
+iter=16000 | depth=17 | max queue size=28451 | num goal tests=86296 | fn=18
+iter=17000 | depth=17 | max queue size=30285 | num goal tests=91686 | fn=18
+iter=18000 | depth=17 | max queue size=32028 | num goal tests=97054 | fn=18
+iter=19000 | depth=17 | max queue size=33769 | num goal tests=102434 | fn=18
+iter=20000 | depth=17 | max queue size=35459 | num goal tests=107816 | fn=18
+iter=21000 | depth=17 | max queue size=37119 | num goal tests=113238 | fn=18
+iter=22000 | depth=17 | max queue size=38731 | num goal tests=118634 | fn=18
+iter=23000 | depth=17 | max queue size=40292 | num goal tests=123862 | fn=18
+iter=24000 | depth=17 | max queue size=41929 | num goal tests=129226 | fn=18
+iter=25000 | depth=17 | max queue size=43671 | num goal tests=134570 | fn=18
+iter=26000 | depth=17 | max queue size=45333 | num goal tests=139934 | fn=18
+iter=27000 | depth=17 | max queue size=46957 | num goal tests=145354 | fn=18
+iter=28000 | depth=17 | max queue size=48553 | num goal tests=150780 | fn=18
+iter=29000 | depth=17 | max queue size=50124 | num goal tests=156168 | fn=18
+iter=30000 | depth=17 | max queue size=51677 | num goal tests=161556 | fn=18
+iter=31000 | depth=17 | max queue size=53132 | num goal tests=166944 | fn=18
+iter=32000 | depth=17 | max queue size=54500 | num goal tests=172268 | fn=18
+iter=33000 | depth=17 | max queue size=55817 | num goal tests=177574 | fn=18
+iter=34000 | depth=17 | max queue size=57253 | num goal tests=182910 | fn=19
+iter=35000 | depth=17 | max queue size=58919 | num goal tests=188198 | fn=19
+iter=36000 | depth=17 | max queue size=60538 | num goal tests=193462 | fn=19
+iter=37000 | depth=17 | max queue size=62071 | num goal tests=198712 | fn=19
+iter=38000 | depth=17 | max queue size=63903 | num goal tests=204172 | fn=19
+iter=39000 | depth=17 | max queue size=65560 | num goal tests=209500 | fn=19
+iter=40000 | depth=17 | max queue size=67137 | num goal tests=214790 | fn=19
+iter=41000 | depth=17 | max queue size=68765 | num goal tests=220128 | fn=19
+iter=42000 | depth=17 | max queue size=70394 | num goal tests=225464 | fn=19
+iter=43000 | depth=17 | max queue size=72122 | num goal tests=230746 | fn=19
+iter=44000 | depth=18 | max queue size=73747 | num goal tests=235968 | fn=19
+iter=45000 | depth=18 | max queue size=75419 | num goal tests=241214 | fn=19
+iter=46000 | depth=18 | max queue size=77146 | num goal tests=246496 | fn=19
+iter=47000 | depth=18 | max queue size=78759 | num goal tests=251740 | fn=19
+iter=48000 | depth=18 | max queue size=80348 | num goal tests=257026 | fn=19
+iter=49000 | depth=18 | max queue size=81936 | num goal tests=262332 | fn=19
+iter=50000 | depth=18 | max queue size=83559 | num goal tests=267618 | fn=19
+iter=51000 | depth=18 | max queue size=85136 | num goal tests=272950 | fn=19
+iter=52000 | depth=18 | max queue size=86664 | num goal tests=278238 | fn=19
+iter=53000 | depth=18 | max queue size=88275 | num goal tests=283538 | fn=19
+iter=54000 | depth=18 | max queue size=89833 | num goal tests=288838 | fn=19
+iter=55000 | depth=18 | max queue size=91397 | num goal tests=294196 | fn=19
+iter=56000 | depth=18 | max queue size=92894 | num goal tests=299572 | fn=19
+iter=57000 | depth=18 | max queue size=94389 | num goal tests=304922 | fn=19
+iter=58000 | depth=18 | max queue size=95818 | num goal tests=310114 | fn=19
+iter=59000 | depth=18 | max queue size=97364 | num goal tests=315458 | fn=19
+iter=60000 | depth=18 | max queue size=98918 | num goal tests=320862 | fn=19
+iter=61000 | depth=18 | max queue size=100465 | num goal tests=326256 | fn=19
+iter=62000 | depth=18 | max queue size=102051 | num goal tests=331686 | fn=19
+iter=63000 | depth=18 | max queue size=103558 | num goal tests=337042 | fn=19
+iter=64000 | depth=18 | max queue size=105101 | num goal tests=342470 | fn=19
+iter=65000 | depth=18 | max queue size=106621 | num goal tests=347752 | fn=19
+iter=66000 | depth=18 | max queue size=108092 | num goal tests=353026 | fn=19
+iter=67000 | depth=18 | max queue size=109626 | num goal tests=358366 | fn=19
+iter=68000 | depth=18 | max queue size=111084 | num goal tests=363676 | fn=19
+iter=69000 | depth=18 | max queue size=112578 | num goal tests=369026 | fn=19
+iter=70000 | depth=18 | max queue size=114013 | num goal tests=374316 | fn=19
+iter=71000 | depth=18 | max queue size=115409 | num goal tests=379646 | fn=19
+iter=72000 | depth=18 | max queue size=116844 | num goal tests=385034 | fn=19
+Success | iter=72347 | depth=19 | max queue size=117377 | num goal tests=386904 | fn=19
+Move 0
+ABD
+HI
+CEFGJ
+>>>>>>>>>>
+Move 1
+ABDJ
+HI
+CEFG
+>>>>>>>>>>
+Move 2
+ABDJ
+HIG
+CEF
+>>>>>>>>>>
+Move 3
+ABD
+HIGJ
+CEF
+>>>>>>>>>>
+Move 4
+AB
+HIGJD
+CEF
+>>>>>>>>>>
+Move 5
+AB
+HIGJDF
+CE
+>>>>>>>>>>
+Move 6
+ABE
+HIGJDF
+C
+>>>>>>>>>>
+Move 7
+ABEF
+HIGJD
+C
+>>>>>>>>>>
+Move 8
+ABEFC
+HIGJD
+
+>>>>>>>>>>
+Move 9
+ABEFC
+HIGJ
+D
+>>>>>>>>>>
+Move 10
+ABEFC
+HIG
+DJ
+>>>>>>>>>>
+Move 11
+ABEFC
+HI
+DJG
+>>>>>>>>>>
+Move 12
+ABEFC
+H
+DJGI
+>>>>>>>>>>
+Move 13
+ABEF
+HC
+DJGI
+>>>>>>>>>>
+Move 14
+ABE
+HCF
+DJGI
+>>>>>>>>>>
+Move 15
+ABE
+HCFI
+DJG
+>>>>>>>>>>
+Move 16
+AB
+HCFI
+DJGE
+>>>>>>>>>>
+Move 17
+A
+HCFIB
+DJGE
+>>>>>>>>>>
+Move 18
+
+HCFIB
+DJGEA
+>>>>>>>>>>
+Move 19
+
+HCFI
+DJGEAB
+>>>>>>>>>>

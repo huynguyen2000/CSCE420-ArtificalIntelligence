@@ -1,0 +1,109 @@
+iter=1000 | depth=10 | max queue size=8599 | num goal tests=17788 | fn=11
+iter=2000 | depth=11 | max queue size=17106 | num goal tests=36260 | fn=11
+iter=3000 | depth=11 | max queue size=24721 | num goal tests=54440 | fn=11
+iter=4000 | depth=11 | max queue size=31796 | num goal tests=72680 | fn=11
+iter=5000 | depth=11 | max queue size=39870 | num goal tests=90356 | fn=12
+iter=6000 | depth=11 | max queue size=48114 | num goal tests=108212 | fn=12
+iter=7000 | depth=11 | max queue size=56235 | num goal tests=126120 | fn=12
+iter=8000 | depth=12 | max queue size=64333 | num goal tests=144364 | fn=12
+iter=9000 | depth=12 | max queue size=72346 | num goal tests=162704 | fn=12
+iter=10000 | depth=12 | max queue size=79714 | num goal tests=180868 | fn=12
+iter=11000 | depth=12 | max queue size=86796 | num goal tests=199040 | fn=12
+iter=12000 | depth=12 | max queue size=93720 | num goal tests=217096 | fn=12
+iter=13000 | depth=12 | max queue size=100492 | num goal tests=235252 | fn=12
+iter=14000 | depth=12 | max queue size=107556 | num goal tests=253504 | fn=12
+iter=15000 | depth=12 | max queue size=114304 | num goal tests=271520 | fn=12
+iter=16000 | depth=12 | max queue size=120932 | num goal tests=289576 | fn=12
+iter=17000 | depth=12 | max queue size=127456 | num goal tests=307544 | fn=12
+Success | iter=17694 | depth=13 | max queue size=131643 | num goal tests=319861 | fn=12
+Move 0
+CFH
+
+AB
+DEGIJ
+
+>>>>>>>>>>
+Move 1
+CFH
+
+AB
+DEGI
+J
+>>>>>>>>>>
+Move 2
+CFH
+I
+AB
+DEG
+J
+>>>>>>>>>>
+Move 3
+CF
+I
+AB
+DEG
+JH
+>>>>>>>>>>
+Move 4
+C
+IF
+AB
+DEG
+JH
+>>>>>>>>>>
+Move 5
+
+IF
+AB
+DEG
+JHC
+>>>>>>>>>>
+Move 6
+G
+IF
+AB
+DE
+JHC
+>>>>>>>>>>
+Move 7
+G
+IFE
+AB
+D
+JHC
+>>>>>>>>>>
+Move 8
+G
+IFEB
+A
+D
+JHC
+>>>>>>>>>>
+Move 9
+GA
+IFEB
+
+D
+JHC
+>>>>>>>>>>
+Move 10
+GA
+IFEB
+D
+
+JHC
+>>>>>>>>>>
+Move 11
+GA
+IFEB
+D
+C
+JH
+>>>>>>>>>>
+Move 12
+GAH
+IFEB
+D
+C
+J
+>>>>>>>>>>

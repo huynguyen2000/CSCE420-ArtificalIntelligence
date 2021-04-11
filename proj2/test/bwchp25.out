@@ -1,0 +1,117 @@
+iter=1000 | depth=11 | max queue size=7116 | num goal tests=17008 | fn=11
+iter=2000 | depth=11 | max queue size=14934 | num goal tests=34332 | fn=12
+iter=3000 | depth=12 | max queue size=21861 | num goal tests=51508 | fn=12
+iter=4000 | depth=12 | max queue size=28994 | num goal tests=68868 | fn=12
+iter=5000 | depth=12 | max queue size=35806 | num goal tests=86528 | fn=12
+iter=6000 | depth=12 | max queue size=40781 | num goal tests=103552 | fn=12
+iter=7000 | depth=12 | max queue size=46473 | num goal tests=121044 | fn=12
+iter=8000 | depth=12 | max queue size=53701 | num goal tests=138404 | fn=13
+iter=9000 | depth=12 | max queue size=60826 | num goal tests=155696 | fn=13
+iter=10000 | depth=13 | max queue size=68174 | num goal tests=173204 | fn=13
+iter=11000 | depth=13 | max queue size=75233 | num goal tests=190748 | fn=13
+iter=12000 | depth=13 | max queue size=82173 | num goal tests=208248 | fn=13
+iter=13000 | depth=13 | max queue size=88698 | num goal tests=225420 | fn=13
+iter=14000 | depth=13 | max queue size=95053 | num goal tests=242592 | fn=13
+iter=15000 | depth=13 | max queue size=101373 | num goal tests=259588 | fn=13
+iter=16000 | depth=13 | max queue size=107426 | num goal tests=276628 | fn=13
+iter=17000 | depth=13 | max queue size=113801 | num goal tests=293976 | fn=13
+iter=18000 | depth=13 | max queue size=120013 | num goal tests=311064 | fn=13
+Success | iter=18184 | depth=14 | max queue size=121009 | num goal tests=314012 | fn=13
+Move 0
+J
+ACFGI
+BH
+
+DE
+>>>>>>>>>>
+Move 1
+J
+ACFG
+BH
+I
+DE
+>>>>>>>>>>
+Move 2
+
+ACFG
+BH
+IJ
+DE
+>>>>>>>>>>
+Move 3
+
+ACFG
+BH
+IJE
+D
+>>>>>>>>>>
+Move 4
+
+ACFG
+B
+IJEH
+D
+>>>>>>>>>>
+Move 5
+B
+ACFG
+
+IJEH
+D
+>>>>>>>>>>
+Move 6
+BG
+ACF
+
+IJEH
+D
+>>>>>>>>>>
+Move 7
+BG
+AC
+
+IJEH
+DF
+>>>>>>>>>>
+Move 8
+BG
+A
+C
+IJEH
+DF
+>>>>>>>>>>
+Move 9
+BG
+A
+CH
+IJE
+DF
+>>>>>>>>>>
+Move 10
+BG
+A
+CH
+IJ
+DFE
+>>>>>>>>>>
+Move 11
+BG
+A
+CH
+I
+DFEJ
+>>>>>>>>>>
+Move 12
+BG
+
+CH
+I
+DFEJA
+>>>>>>>>>>
+Move 13
+BG
+
+CH
+
+DFEJAI
+>>>>>>>>>>

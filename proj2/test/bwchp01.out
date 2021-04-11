@@ -1,0 +1,51 @@
+Success | iter=85 | depth=9 | max queue size=129 | num goal tests=396 | fn=8
+Move 0
+
+DE
+ABC
+>>>>>>>>>>
+Move 1
+E
+D
+ABC
+>>>>>>>>>>
+Move 2
+ED
+
+ABC
+>>>>>>>>>>
+Move 3
+ED
+C
+AB
+>>>>>>>>>>
+Move 4
+E
+C
+ABD
+>>>>>>>>>>
+Move 5
+
+CE
+ABD
+>>>>>>>>>>
+Move 6
+
+CED
+AB
+>>>>>>>>>>
+Move 7
+B
+CED
+A
+>>>>>>>>>>
+Move 8
+B
+CEDA
+
+>>>>>>>>>>
+Move 9
+
+CEDA
+B
+>>>>>>>>>>

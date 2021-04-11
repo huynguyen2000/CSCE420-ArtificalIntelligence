@@ -1,0 +1,37 @@
+# initial facts
+O1Y
+O2W
+O3Y
+L1W
+L2Y
+L3B
+
+# if a colored ball is in the container, it means the box should either contain balls of that color or both
+(implies O1Y (or C1Y C1B))
+(implies O1W (or C1W C1B))
+(implies O2Y (or C2Y C2B))
+(implies O2W (or C2W C2B))
+(implies O3Y (or C3Y C3B))
+(implies O3W (or C3W C3B))
+
+# each box is definitely labled incorrectly so if a box is labeled a certain color, the box should not contain balls corresponding to its label
+(implies L1Y (not C1Y))
+(implies L1W (not C1W))
+(implies L1B (not C1B))
+(implies L2Y (not C2Y))
+(implies L2W (not C2W))
+(implies L2B (not C2B))
+(implies L3Y (not C3Y))
+(implies L3W (not C3W))
+(implies L3B (not C3B))
+
+# if a box contains a certain set of balls, than other boxes cannot contain that certain set of balls
+(implies C1Y (and (not C2Y) (not C3Y)))
+(implies C1W (and (not C2W) (not C3W)))
+(implies C1B (and (not C2B) (not C3B)))
+(implies C2Y (and (not C1Y) (not C3Y)))
+(implies C2W (and (not C1W) (not C3W)))
+(implies C2B (and (not C1B) (not C3B)))
+(implies C3Y (and (not C2Y) (not C1Y)))
+(implies C3W (and (not C2W) (not C1W)))
+(implies C3B (and (not C2B) (not C1B)))

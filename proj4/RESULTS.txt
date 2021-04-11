@@ -1,0 +1,50 @@
+For this project, I ended up doing 10 runs (twice for each input file to test unit clause heuristic).
+These where the results: 
+
+PROBLEMS                              | UNIT CLAUSE HEURISTIC = TRUE  | UNIT CLAUSE HEURISTIC = FALSE
+--------------------------------------|-------------------------------|-------------------------------
+4-queens:                             | found solution in 29 calls    | found solution in 105 calls
+6-queens                              | found solution in 96 calls    | found solution in 863 calls
+MapColoring                           | found solution in 22 calls    | found solution in 277 calls
+MapColoring w/ QR=true                | found solution in 33 calls    | found solution in 1541 calls
+MapColoring w/ QR=true and VB=true    | failed in 19 calls            | failed in 1031 calls
+
+The tracing information for these problem can be found in the outputs folder.
+Files that contains a -U means that they were ran WITHOUT the unit clause heuristic.
+
+
+Every problem ended up being satisfiable and solved except for the MapColoring w/ QR=true and VB=true problem.
+This should be correct since QR and VB can't both be true.
+
+During each run, backtracking did occur on every problem. The DPLL algorithm prefers to set the first symbol to false first.
+If it doesn't work out, the algo backtracks and tries again this time setting the symbol to true.
+
+
+These are the models for each of the problem:
+
+4-queens: 
+Q13 Q34 Q42 Q21
+. # . .
+. . . #
+# . . .
+. . # .
+
+6-queens:
+Q23 Q31 Q15 Q54 Q62 Q46
+. . # . . .
+. . . . . #
+. # . . . .
+. . . . # .
+# . . . . .
+. . . # . .
+
+MapColoring:
+NTR VB NSWR WAB QB TR SAG
+|------|------|-----------|
+|      | NT=R |    Q=B    |
+|      |------|-----|     |
+| WA=B |            |-----|
+|      |    SA=G    |NSW=R|
+|      |            |-----|   |-----|
+|      |            | V=B |   | T=R |
+|------|------------|-----|   |-----|

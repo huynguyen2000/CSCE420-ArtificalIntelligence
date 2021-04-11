@@ -1,0 +1,53 @@
+iter=1000 | depth=3 | max queue size=6664 | num goal tests=17388
+iter=2000 | depth=3 | max queue size=12354 | num goal tests=34196
+iter=3000 | depth=4 | max queue size=17332 | num goal tests=50220
+iter=4000 | depth=4 | max queue size=22310 | num goal tests=66428
+iter=5000 | depth=4 | max queue size=27714 | num goal tests=83424
+iter=6000 | depth=4 | max queue size=32882 | num goal tests=100496
+iter=7000 | depth=4 | max queue size=37902 | num goal tests=117164
+iter=8000 | depth=4 | max queue size=42409 | num goal tests=133044
+iter=9000 | depth=4 | max queue size=47329 | num goal tests=149556
+iter=10000 | depth=4 | max queue size=52302 | num goal tests=166572
+Success | iter=10051 | depth=5 | max queue size=52542 | num goal tests=167428
+Move 0
+EGH
+AFI
+BJ
+C
+D
+>>>>>>>>>>
+Move 1
+EGH
+AF
+BJ
+C
+DI
+>>>>>>>>>>
+Move 2
+EGH
+A
+BJ
+C
+DIF
+>>>>>>>>>>
+Move 3
+EGH
+A
+BJ
+
+DIFC
+>>>>>>>>>>
+Move 4
+EGH
+
+BJ
+
+DIFCA
+>>>>>>>>>>
+Move 5
+EG
+
+BJ
+
+DIFCAH
+>>>>>>>>>>

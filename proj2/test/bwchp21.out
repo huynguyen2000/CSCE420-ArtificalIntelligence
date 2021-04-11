@@ -1,0 +1,94 @@
+iter=1000 | depth=9 | max queue size=7633 | num goal tests=17236 | fn=10
+iter=2000 | depth=10 | max queue size=14787 | num goal tests=34252 | fn=11
+Success | iter=2046 | depth=12 | max queue size=15131 | num goal tests=35031 | fn=11
+Move 0
+
+BIJ
+CEH
+AD
+FG
+>>>>>>>>>>
+Move 1
+
+BIJ
+CEHG
+AD
+F
+>>>>>>>>>>
+Move 2
+F
+BIJ
+CEHG
+AD
+
+>>>>>>>>>>
+Move 3
+FJ
+BI
+CEHG
+AD
+
+>>>>>>>>>>
+Move 4
+FJ
+B
+CEHG
+AD
+I
+>>>>>>>>>>
+Move 5
+FJ
+B
+CEH
+AD
+IG
+>>>>>>>>>>
+Move 6
+FJH
+B
+CE
+AD
+IG
+>>>>>>>>>>
+Move 7
+FJH
+
+CE
+AD
+IGB
+>>>>>>>>>>
+Move 8
+FJHE
+
+C
+AD
+IGB
+>>>>>>>>>>
+Move 9
+FJHEB
+
+C
+AD
+IG
+>>>>>>>>>>
+Move 10
+FJHEBC
+
+
+AD
+IG
+>>>>>>>>>>
+Move 11
+FJHEBCG
+
+
+AD
+I
+>>>>>>>>>>
+Move 12
+FJHEBCG
+
+I
+AD
+
+>>>>>>>>>>

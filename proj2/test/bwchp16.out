@@ -1,0 +1,36 @@
+Success | iter=19 | depth=4 | max queue size=113 | num goal tests=226 | fn=3
+Move 0
+
+DE
+BC
+
+A
+>>>>>>>>>>
+Move 1
+
+D
+BC
+E
+A
+>>>>>>>>>>
+Move 2
+
+D
+BCA
+E
+
+>>>>>>>>>>
+Move 3
+
+
+BCA
+E
+D
+>>>>>>>>>>
+Move 4
+
+E
+BCA
+
+D
+>>>>>>>>>>

@@ -1,0 +1,68 @@
+Explain your heuristic:
+
+For my heuristic, I looked at every block and asked if it was on the block it was supposed to be in the goal state.
+If not, then I add 1 to my heuristic score. This represents the 1 move the must happen to put the block into it's correct spot.
+If a block is on top of the block it is supposed to be on, but that bottom block is not where it is supposed to be, then I add 2.
+This represents the top block moving out of the way for the bottom block to move into place, before moving once again onto the bottom block.
+If a block needs to move once occurs in a stack, all blocks above will have to move at least once.
+If a block needs to move twice occurs in a stack, all blocks above will have to move twice
+(I am not sure if this is admissable, since if a block isn't on it's correct block, it could move out of the way once and onto the correct position)
+I also implemented mutual preventation, which means that if a block is preventing another block from moving, then I count it as needing to move twice.
+(I am not sure that this is admissable, since only 1 of the two block would have to move twice and not both)
+
+
+
+Example states:
+
+>>>>>>>>>>current state
+AB
+DC
+E
+>>>>>>>>>>goal state
+ABC
+DE
+
+>>>>>>>>>>
+In this example, there would be a +1 for c since c is on top of b in the goal state but not the current state.
+There would also be a +1 for e since e in the goal state should be on the bottom floor.
+This state would have a heuristic score of 2.
+
+
+>>>>>>>>>>current state
+BC
+ADE
+
+>>>>>>>>>>goal state
+ABC
+DE
+
+>>>>>>>>>>
+In this example, notice how c is on the correct block, but b is not. This means that c needs to move at least twice,
+once to move out of the way so b can move, and another to be put on top of b once it it in the correct position.
+Same thing happens for block e. This state would have a heuristic score of 6.
+
+
+>>>>>>>>>>current state
+AB
+
+CD
+>>>>>>>>>>goal state
+AD
+
+CB
+>>>>>>>>>>
+In this example, notice how both d and b is preventing one another from being put in the correct position.
+This is called mutual preventation and that results in a +2 for both blocks. This state would have a heuristic score of 4.
+
+
+
+Summary:
+Overall, this heuristic was able to solve 23/45 problems presented for this project. This heuristic was able to solve to problems
+with 5 blocks with relative ease and some problems with 10 blocks with difficulty. However, the heuristic could not solve the problems
+containing 20 blocks except for 1, which I think was a fluke. I think the biggest problem with the heuristic was that it can'tell
+if a block was in the correct stack, only if a block's relative vertical positioning with another block was correct, so in states
+where the blocks are in the correct vertical order with incorrect stack order, the heuristic thinks we have achieved the goal state.
+This was apparent during some of tests that the heursitics couldn't passed since fn would always equal path length which means that
+the heuristic couldn't find any problems with the current state. The heuristic ended up doing better for problems with lower stack size 
+and number of blocks, which makes sense since it reduces the chance for the issue mentioned above. The heuristic did mostly find the optimal 
+solutions, at least the ones that I could verify. 

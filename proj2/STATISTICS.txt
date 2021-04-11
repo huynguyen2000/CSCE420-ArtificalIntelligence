@@ -1,0 +1,50 @@
+3/6/2021
+
+This was ran using AStar with heuristic2() and MAX_ITERS=100000
+
+file        S B N     outcome    
+bwchp01.bwp 3 5 10000 Success | iter=85 | depth=9 | max queue size=129 | num goal tests=396 | fn=8
+bwchp02.bwp 3 5 10000 Success | iter=50 | depth=7 | max queue size=81 | num goal tests=234 | fn=7
+bwchp03.bwp 3 5 10000 Success | iter=32 | depth=8 | max queue size=65 | num goal tests=157 | fn=7
+bwchp04.bwp 3 5 10000 Success | iter=62 | depth=8 | max queue size=105 | num goal tests=305 | fn=8
+bwchp05.bwp 3 5 10000 Success | iter=141 | depth=9 | max queue size=218 | num goal tests=699 | fn=8
+bwchp06.bwp 3 10 10000 Success | iter=72347 | depth=19 | max queue size=117377 | num goal tests=386904 | fn=19
+bwchp07.bwp 3 10 10000 Failure, max iterations reached | iter=100000 | depth=19 | max queue size=150793 | num goal tests=533318
+bwchp08.bwp 3 10 10000 Success | iter=1765 | depth=15 | max queue size=3656 | num goal tests=9707 | fn=15
+bwchp09.bwp 3 10 10000 Failure, max iterations reached | iter=100000 | depth=16 | max queue size=149868 | num goal tests=534996
+bwchp10.bwp 3 10 10000 Failure, max iterations reached | iter=100000 | depth=17 | max queue size=164790 | num goal tests=546574
+bwchp11.bwp 3 20 10000 Failure, max iterations reached | iter=100000 | depth=10 | max queue size=231368 | num goal tests=584752
+bwchp12.bwp 3 20 10000 Failure, max iterations reached | iter=100000 | depth=12 | max queue size=237429 | num goal tests=584304
+bwchp13.bwp 3 20 10000 Failure, max iterations reached | iter=100000 | depth=12 | max queue size=231231 | num goal tests=582602
+bwchp14.bwp 3 20 10000 Failure, max iterations reached | iter=100000 | depth=12 | max queue size=227193 | num goal tests=586452
+bwchp15.bwp 3 20 10000 Failure, max iterations reached | iter=100000 | depth=12 | max queue size=235607 | num goal tests=587900
+bwchp16.bwp 5 5 10000 Success | iter=19 | depth=4 | max queue size=113 | num goal tests=226 | fn=3
+bwchp17.bwp 5 5 10000 Success | iter=177 | depth=6 | max queue size=873 | num goal tests=2403 | fn=5
+bwchp18.bwp 5 5 10000 Success | iter=6 | depth=4 | max queue size=25 | num goal tests=41 | fn=3
+bwchp19.bwp 5 5 10000 Success | iter=837 | depth=8 | max queue size=2661 | num goal tests=10774 | fn=7
+bwchp20.bwp 5 5 10000 Success | iter=510 | depth=7 | max queue size=2160 | num goal tests=7130 | fn=6
+bwchp21.bwp 5 10 10000 Success | iter=2046 | depth=12 | max queue size=15131 | num goal tests=35031 | fn=11
+bwchp22.bwp 5 10 10000 Success | iter=59358 | depth=15 | max queue size=351357 | num goal tests=1009695 | fn=14
+bwchp23.bwp 5 10 10000 Success | iter=46613 | depth=15 | max queue size=318073 | num goal tests=814665 | fn=14
+bwchp24.bwp 5 10 10000 Success | iter=17694 | depth=13 | max queue size=131643 | num goal tests=319861 | fn=12
+bwchp25.bwp 5 10 10000 Success | iter=18184 | depth=14 | max queue size=121009 | num goal tests=314012 | fn=13
+bwchp26.bwp 5 20 10000 Failure, max iterations reached | iter=100000 | depth=9 | max queue size=765879 | num goal tests=1923340
+bwchp27.bwp 5 20 10000 Failure, max iterations reached | iter=100000 | depth=15 | max queue size=762450 | num goal tests=1897444
+bwchp28.bwp 5 20 10000 Failure, max iterations reached | iter=100000 | depth=9 | max queue size=847194 | num goal tests=1959420
+bwchp29.bwp 5 20 10000 Failure, max iterations reached | iter=100000 | depth=8 | max queue size=803789 | num goal tests=1945648
+bwchp30.bwp 5 20 10000 Failure, max iterations reached | iter=100000 | depth=10 | max queue size=850570 | num goal tests=1965736
+bwchp31.bwp 10 5 10000 Success | iter=127 | depth=5 | max queue size=1997 | num goal tests=4375 | fn=4
+bwchp32.bwp 10 5 10000 Success | iter=28 | depth=4 | max queue size=683 | num goal tests=1060 | fn=3
+bwchp33.bwp 10 5 10000 Success | iter=521 | depth=4 | max queue size=9193 | num goal tests=22944 | fn=3
+bwchp34.bwp 10 5 10000 Success | iter=68 | depth=6 | max queue size=1519 | num goal tests=2479 | fn=5
+bwchp35.bwp 10 5 10000 Success | iter=2465 | depth=5 | max queue size=24195 | num goal tests=99350 | fn=4
+bwchp36.bwp 10 10 10000 Failure, max iterations reached | iter=100000 | depth=8 | max queue size=2812882 | num goal tests=6529248
+bwchp37.bwp 10 10 10000 Failure, max iterations reached | iter=100000 | depth=10 | max queue size=2714826 | num goal tests=5882922
+bwchp38.bwp 10 10 10000 Failure, max iterations reached | iter=100000 | depth=9 | max queue size=3066814 | num goal tests=6501591
+bwchp39.bwp 10 10 10000 Failure, max iterations reached | iter=100000 | depth=9 | max queue size=2969861 | num goal tests=6307101
+bwchp40.bwp 10 10 10000 Success | iter=35445 | depth=11 | max queue size=964608 | num goal tests=2023663 | fn=10
+bwchp41.bwp 10 20 10000 Failure, max iterations reached | iter=100000 | depth=20 | max queue size=4896985 | num goal tests=7751259
+bwchp42.bwp 10 20 10000 Failure, max iterations reached | iter=100000 | depth=19 | max queue size=4758405 | num goal tests=8239140
+bwchp43.bwp 10 20 10000 Failure, max iterations reached | iter=100000 | depth=21 | max queue size=4550334 | num goal tests=7521633
+bwchp44.bwp 10 20 10000 Failure, max iterations reached | iter=100000 | depth=20 | max queue size=5586035 | num goal tests=8488602
+bwchp45.bwp 10 20 10000 Failure, max iterations reached | iter=100000 | depth=19 | max queue size=4975062 | num goal tests=8652141

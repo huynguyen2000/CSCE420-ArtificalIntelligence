@@ -1,0 +1,159 @@
+iter=1000 | depth=12 | max queue size=8912 | num goal tests=17720 | fn=12
+iter=2000 | depth=12 | max queue size=16785 | num goal tests=35648 | fn=12
+iter=3000 | depth=12 | max queue size=23851 | num goal tests=53656 | fn=12
+iter=4000 | depth=13 | max queue size=31278 | num goal tests=71248 | fn=13
+iter=5000 | depth=13 | max queue size=39041 | num goal tests=88708 | fn=13
+iter=6000 | depth=13 | max queue size=46417 | num goal tests=106240 | fn=13
+iter=7000 | depth=13 | max queue size=53119 | num goal tests=123424 | fn=13
+iter=8000 | depth=13 | max queue size=60589 | num goal tests=141044 | fn=13
+iter=9000 | depth=13 | max queue size=67902 | num goal tests=158772 | fn=13
+iter=10000 | depth=13 | max queue size=74317 | num goal tests=176080 | fn=13
+iter=11000 | depth=13 | max queue size=80683 | num goal tests=193344 | fn=13
+iter=12000 | depth=13 | max queue size=87121 | num goal tests=210732 | fn=13
+iter=13000 | depth=13 | max queue size=93325 | num goal tests=228248 | fn=13
+iter=14000 | depth=13 | max queue size=100162 | num goal tests=245820 | fn=13
+iter=15000 | depth=13 | max queue size=106794 | num goal tests=263508 | fn=13
+iter=16000 | depth=13 | max queue size=113289 | num goal tests=281176 | fn=13
+iter=17000 | depth=13 | max queue size=119551 | num goal tests=298976 | fn=13
+iter=18000 | depth=13 | max queue size=125713 | num goal tests=316828 | fn=13
+iter=19000 | depth=13 | max queue size=131485 | num goal tests=334440 | fn=13
+iter=20000 | depth=13 | max queue size=136911 | num goal tests=352116 | fn=13
+iter=21000 | depth=13 | max queue size=142411 | num goal tests=369892 | fn=13
+iter=22000 | depth=13 | max queue size=147947 | num goal tests=387732 | fn=13
+iter=23000 | depth=13 | max queue size=155827 | num goal tests=405476 | fn=14
+iter=24000 | depth=13 | max queue size=163204 | num goal tests=422860 | fn=14
+iter=25000 | depth=13 | max queue size=170460 | num goal tests=440200 | fn=14
+iter=26000 | depth=13 | max queue size=177579 | num goal tests=457176 | fn=14
+iter=27000 | depth=13 | max queue size=184897 | num goal tests=474356 | fn=14
+iter=28000 | depth=13 | max queue size=192254 | num goal tests=491900 | fn=14
+iter=29000 | depth=13 | max queue size=198998 | num goal tests=508876 | fn=14
+iter=30000 | depth=13 | max queue size=205935 | num goal tests=526084 | fn=14
+iter=31000 | depth=13 | max queue size=212891 | num goal tests=543472 | fn=14
+iter=32000 | depth=13 | max queue size=219964 | num goal tests=560772 | fn=14
+iter=33000 | depth=13 | max queue size=226823 | num goal tests=578156 | fn=14
+iter=34000 | depth=13 | max queue size=233791 | num goal tests=595872 | fn=14
+iter=35000 | depth=14 | max queue size=240594 | num goal tests=613100 | fn=14
+iter=36000 | depth=14 | max queue size=248002 | num goal tests=630708 | fn=14
+iter=37000 | depth=14 | max queue size=255118 | num goal tests=648044 | fn=14
+iter=38000 | depth=14 | max queue size=262173 | num goal tests=665316 | fn=14
+iter=39000 | depth=14 | max queue size=268716 | num goal tests=682504 | fn=14
+iter=40000 | depth=14 | max queue size=275059 | num goal tests=699548 | fn=14
+iter=41000 | depth=14 | max queue size=281700 | num goal tests=716828 | fn=14
+iter=42000 | depth=14 | max queue size=288276 | num goal tests=734376 | fn=14
+iter=43000 | depth=14 | max queue size=295239 | num goal tests=751912 | fn=14
+iter=44000 | depth=14 | max queue size=301649 | num goal tests=769420 | fn=14
+iter=45000 | depth=14 | max queue size=307992 | num goal tests=786996 | fn=14
+iter=46000 | depth=14 | max queue size=314153 | num goal tests=804032 | fn=14
+Success | iter=46613 | depth=15 | max queue size=318073 | num goal tests=814665 | fn=14
+Move 0
+AGHJ
+EI
+
+BCF
+D
+>>>>>>>>>>
+Move 1
+AGHJ
+E
+I
+BCF
+D
+>>>>>>>>>>
+Move 2
+AGHJE
+
+I
+BCF
+D
+>>>>>>>>>>
+Move 3
+AGHJE
+I
+
+BCF
+D
+>>>>>>>>>>
+Move 4
+AGHJ
+IE
+
+BCF
+D
+>>>>>>>>>>
+Move 5
+AGHJ
+IE
+D
+BCF
+
+>>>>>>>>>>
+Move 6
+AGH
+IE
+D
+BCFJ
+
+>>>>>>>>>>
+Move 7
+AG
+IE
+DH
+BCFJ
+
+>>>>>>>>>>
+Move 8
+A
+IE
+DH
+BCFJ
+G
+>>>>>>>>>>
+Move 9
+
+IEA
+DH
+BCFJ
+G
+>>>>>>>>>>
+Move 10
+
+IEAJ
+DH
+BCF
+G
+>>>>>>>>>>
+Move 11
+
+IEAJF
+DH
+BC
+G
+>>>>>>>>>>
+Move 12
+C
+IEAJF
+DH
+B
+G
+>>>>>>>>>>
+Move 13
+C
+IEAJFB
+DH
+
+G
+>>>>>>>>>>
+Move 14
+
+IEAJFB
+DH
+C
+G
+>>>>>>>>>>
+Move 15
+G
+IEAJFB
+DH
+C
+
+>>>>>>>>>>
